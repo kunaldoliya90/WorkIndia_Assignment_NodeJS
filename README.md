@@ -317,7 +317,7 @@ Description: This screenshot showcases the creation of the database schema for t
 
 #### 2. Checking Train Availability
 
-![Train Availability Screenshot](./WorkIndia_Task_RailwayManagement\Photo\checkAvailability-Postman.png)
+![Train Availability Screenshot](./WorkIndia_Task_RailwayManagement/Photo/checkAvailability-Postman.png)
 
 Description: This screenshot demonstrates how the `GET /user/availability` API is used to check train availability.
 
@@ -325,7 +325,7 @@ Description: This screenshot demonstrates how the `GET /user/availability` API i
 
 #### 3. Server Running Locally
 
-![Localhost Running Screenshot](./WorkIndia_Task_RailwayManagement\Photo\serverRunning-2.png)
+![Localhost Running Screenshot](./WorkIndia_Task_RailwayManagement/Photo/serverRunning-2.png)
 
 Description: The server running locally on `http://localhost:3000` as part of the project setup.
 
@@ -333,7 +333,7 @@ Description: The server running locally on `http://localhost:3000` as part of th
 
 #### 4. User Login via Postman
 
-![Postman Login Screenshot](./WorkIndia_Task_RailwayManagement\Photo\loginPostman.png)
+![Postman Login Screenshot](./WorkIndia_Task_RailwayManagement/Photo/loginPostman.png)
 
 Description: A Postman request to log in a user, showcasing how the login API works.
 
@@ -341,7 +341,7 @@ Description: A Postman request to log in a user, showcasing how the login API wo
 
 #### 5. User Registration via Postman
 
-![Postman Registration Screenshot](./WorkIndia_Task_RailwayManagement\Photo\RegisterPostman.png)
+![Postman Registration Screenshot](./WorkIndia_Task_RailwayManagement/Photo/RegisterPostman.png)
 
 Description: A Postman request to register a new user, demonstrating the registration functionality.
 
@@ -349,7 +349,7 @@ Description: A Postman request to register a new user, demonstrating the registr
 
 #### 6. User Database
 
-![User Database Screenshot](./WorkIndia_Task_RailwayManagement\Photo\usersDB-WorkBench.png)
+![User Database Screenshot](./WorkIndia_Task_RailwayManagement/Photo/usersDB-WorkBench.png)
 
 Description: The structure and data stored in the `users` table of the `irctc_db` database.
 
@@ -357,6 +357,6 @@ Description: The structure and data stored in the `users` table of the `irctc_db
 
 #### 7. Workbench SQL View
 
-![Workbench SQL Screenshot](./WorkIndia_Task_RailwayManagement\Photo\workbench_tables.png)
+![Workbench SQL Screenshot](./WorkIndia_Task_RailwayManagement/Photo/workbench_tables.png)
 
 Description: An overview of the SQL queries and table structures in MySQL Workbench.
