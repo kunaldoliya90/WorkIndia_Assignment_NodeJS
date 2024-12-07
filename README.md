@@ -39,7 +39,8 @@ JWT_SECRET=Kunal_WorkIndia_Assignment
 1. Clone the repository to your local machine:
    ```bash
 
-      git clone 
+      git clone https://github.com/kunaldoliya90/WorkIndia_Assignment_NodeJS
+      cd WorkIndia_Task_RailwayManagement
    ```
 2. Install all necessary dependencies using npm:
 
@@ -94,7 +95,8 @@ CREATE TABLE bookings (
 Once the setup is complete, start the server using npm:
 
 ```bash
-npm start
+
+  node index.js
 
 ```
 
@@ -115,9 +117,9 @@ npm start
 
 ```bash
 {
-  "name": "Kunal Doliya12",
-  "email": "kunaldoliya.ofcj1@gmail.com1",
-  "password": "Kunal123411"
+  "name": "Kunal Doliya",
+  "email": "kunaldoliya.ofcj@gmail.com",
+  "password": "Kunal1234"
 }
 
 ```
@@ -129,8 +131,8 @@ npm start
 
 ```bash
     {
-  "email": "kunaldoliya.ofcj1@gmail.com1",
-  "password": "Kunal123411"
+  "email": "kunaldoliya.ofcj@gmail.com",
+  "password": "Kunal1234"
     }
 ```
 
@@ -139,8 +141,8 @@ npm start
    - HTTP Method :- GET
    - Endpoint :- http://localhost:3000/user/availability?source=Ranchi&destination=Delhi
    - Query Parameters
-     - source: Source station (e.g., "Solapur")
-     - destination: Destination station (e.g., "Mumbai")
+     - source: Source station (e.g., "Sadalpur")
+     - destination: Destination station (e.g., "Delhi")
    - Response:
 
 ```bash
@@ -193,7 +195,7 @@ Note :- Requires JWT authentication.
         "booking_id": 17,
         "number_of_seats": 50,
         "train_number": "123123",
-        "source": "Ranchi",
+        "source": "Sadalpur",
         "destination": "Delhi"
     }
 ]
@@ -289,25 +291,15 @@ You can test all the available APIs using Postman. The endpoints are well-struct
 
 ```
 
-### Technologies Used
+### Technologies Utilized
 
-- Node.js: For backend logic
-- Express.js: Web framework for building the RESTful API
-- MySQL: Database for storing train, user, and booking data
-- JWT: For authentication and authorization
-- bcrypt: For hashing the passwords
-- dotenv: For managing environment variables
+- **MySQL**: Relational database used for storing user information, train schedules, and booking data.
+- **Node.js**: Backend runtime environment enabling the server-side logic and API management.
+- **Express.js**: A lightweight framework that facilitates the creation of the RESTful API.
+- **JWT (JSON Web Token)**: For secure user authentication and authorization processes.
+- **bcrypt**: Encryption library used for securely hashing user passwords.
+- **dotenv**: Manages environment variables for secure configuration and deployment.
 
-### Future Enhancements
-
-- Add frontend interface using React or Angular
-- Implement seat selection
-- Add email notifications for booking confirmations
-- Integrate payment gateway
-
-### Contributing
-
-Feel free to fork the repository and make your contributions via pull requests. Any enhancements, bug fixes, or suggestions are welcome!
 
 # photos of the project
 
@@ -315,15 +307,17 @@ Feel free to fork the repository and make your contributions via pull requests. 
 
 #### 1. Database Creation
 
-![Database Creation Screenshot](./WorkIndia_Task_IRCTC/Photo/user_table.png)
+![Database Creation Screenshot](./WorkIndia_Task_RailwayManagement/Photo/creatingDB-WorkBench.png)
 
-Description: This screenshot showcases the creation of the database schema for the IRCTC system.
+Description: This screenshot showcases the creation of the database schema for the Railway Management system.
 
 ---
 
+
+
 #### 2. Checking Train Availability
 
-![Train Availability Screenshot](./WorkIndia_Task_IRCTC/Photo/Get_Availibility.png)
+![Train Availability Screenshot](./WorkIndia_Task_RailwayManagement\Photo\checkAvailability-Postman.png)
 
 Description: This screenshot demonstrates how the `GET /user/availability` API is used to check train availability.
 
@@ -331,7 +325,7 @@ Description: This screenshot demonstrates how the `GET /user/availability` API i
 
 #### 3. Server Running Locally
 
-![Localhost Running Screenshot](./WorkIndia_Task_IRCTC/Photo/localhost_running.png)
+![Localhost Running Screenshot](./WorkIndia_Task_RailwayManagement\Photo\serverRunning-2.png)
 
 Description: The server running locally on `http://localhost:3000` as part of the project setup.
 
@@ -339,7 +333,7 @@ Description: The server running locally on `http://localhost:3000` as part of th
 
 #### 4. User Login via Postman
 
-![Postman Login Screenshot](./WorkIndia_Task_IRCTC/Photo/Postman_login.png)
+![Postman Login Screenshot](./WorkIndia_Task_RailwayManagement\Photo\loginPostman.png)
 
 Description: A Postman request to log in a user, showcasing how the login API works.
 
@@ -347,7 +341,7 @@ Description: A Postman request to log in a user, showcasing how the login API wo
 
 #### 5. User Registration via Postman
 
-![Postman Registration Screenshot](./WorkIndia_Task_IRCTC/Photo/Postman_register.png)
+![Postman Registration Screenshot](./WorkIndia_Task_RailwayManagement\Photo\RegisterPostman.png)
 
 Description: A Postman request to register a new user, demonstrating the registration functionality.
 
@@ -355,7 +349,7 @@ Description: A Postman request to register a new user, demonstrating the registr
 
 #### 6. User Database
 
-![User Database Screenshot](./WorkIndia_Task_IRCTC/Photo/User_database.png)
+![User Database Screenshot](./WorkIndia_Task_RailwayManagement\Photo\usersDB-WorkBench.png)
 
 Description: The structure and data stored in the `users` table of the `irctc_db` database.
 
@@ -363,6 +357,6 @@ Description: The structure and data stored in the `users` table of the `irctc_db
 
 #### 7. Workbench SQL View
 
-![Workbench SQL Screenshot](./WorkIndia_Task_IRCTC/Photo/WorkBench_SQL.png)
+![Workbench SQL Screenshot](./WorkIndia_Task_RailwayManagement\Photo\workbench_tables.png)
 
 Description: An overview of the SQL queries and table structures in MySQL Workbench.

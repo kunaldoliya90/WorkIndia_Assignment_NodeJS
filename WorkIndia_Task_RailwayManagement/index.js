@@ -8,6 +8,10 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 
+app.get('/', (req, res) => {
+    res.send('Server is running!');
+  });
+  
 app.use("/admin", adminRoutes);
 app.use("/user", userRoutes);
 
