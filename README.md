@@ -17,9 +17,10 @@ The backend is developed using **Node.js**, **Express.js**, and **MySQL** to ens
 
 To run this project, ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/en/) (v14 or later)
-- [MySQL](https://www.mysql.com/) (Database setup)
-- [Postman](https://www.postman.com/) (for API testing)
+- Node.js
+- MySQL
+- Postman
+
 
 ### Environment Variables
 
